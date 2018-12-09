@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ML Alzheimer's
-permalink: /349-Alzheimer's-ML/
+permalink: 349-Alzheimer's-ML/
 ---
 ###### A Jekyll theme based in Google Material Design Lite library.
 

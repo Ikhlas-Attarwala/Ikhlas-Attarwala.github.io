@@ -1,10 +1,10 @@
 # Site settings
-title: Michael Cantu
-email: michaelcan293@gmail.com
+title: 349 Alzheimer's
+email: ikhlas.attarwala@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  michael cantu is a graduate student in artificial intelligence at Northwestern University interested in Machine Learning and Computer Vision.
+  ikhlas attarwala is a graduate student in artificial intelligence at Northwestern University interested in Machine Learning and Computer Vision.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://michaelcantu.me/" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 
 
 # Layout settings

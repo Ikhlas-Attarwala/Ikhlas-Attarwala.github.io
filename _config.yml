@@ -5,6 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   ikhlas attarwala is a graduate student in artificial intelligence at Northwestern University interested in Machine Learning and Computer Vision.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
+github_username:  Ikhlas-Attarwala
 
 
 # Layout settings

@@ -1,81 +1,74 @@
-# jekyll-mdl
-> A Jekyll theme based in Google Material Design Lite library.
+# [Start Bootstrap - Resume](https://startbootstrap.com/template-overviews/resume/)
 
-## Demo
+[Resume](https://startbootstrap.com/template-overviews/resume/) is a resume and CV theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features a fixed sidebar with content sections to build a simple, yet elegant resume.
 
-You can see the online demo here [http://gdgmanagua.github.io/jekyll-mdl/](http://gdgmanagua.github.io/jekyll-mdl/)
+## Preview
 
-![Demo](https://raw.githubusercontent.com/gdg-managua/jekyll-mdl/master/jekyll-mdl-screen.png)
+[![Resume Preview](https://startbootstrap.com/assets/img/templates/resume.jpg)](https://blackrockdigital.github.io/startbootstrap-resume/)
 
-## Sites using jekyll-mdl
+**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-resume/)**
 
-If you are using this cool jekyll theme, please open an issue or fork the project, add your site to the list and send us a pull request, we will be happy to know where the theme has been used.
+## Status
 
-- [prosa100.github.io](http://prosa100.github.io/)
-- [fandekasp.github.io](http://fandekasp.github.io/)
-- [webiphany.com](http://webiphany.com)
-- [siempredelao.github.io](http://siempredelao.github.io/)
-- [sparker0i.github.io](http://sparker0i.github.io/)
-- [kris27mc.github.io](https://kris27mc.github.io)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-resume/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-resume.svg)](https://www.npmjs.com/package/startbootstrap-resume)
+[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-resume.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-resume)
+[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-resume/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-resume)
+[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-resume/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-resume?type=dev)
 
-## Custom Themes
+## Download and Installation
 
-If you don't want the default site colors, you can create custom themes for the site in the [mdl theme creator](http://www.getmdl.io/customize/index.html). The site will create a custom css, something like this:
+To begin using this template, choose one of the following options to get started:
+* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/resume/)
+* Install via npm: `npm i startbootstrap-resume`
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-resume.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-resume)
 
-     <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.teal-green.min.css" />
+## Usage
 
-Now add this in the _includes/head.html file, under the main css and enjoy your new theme.
+### Basic Usage
 
-## Post Options
+After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
 
-All the post, require an image and maybe an author and declare if the post is highlighted or not, the image are used in the cards and the autor used for the footer in the cards, the highlighted post is used for make this 12 cols and not a card, if you want to use the custom images and set the author and the highlight post, just add a new key in the post config, something like this:
+### Advanced Usage
 
-    ---
-    layout: post
-    title:  "Welcome to jekyll-mdl"
-    date:   2015-07-11 11:34:20
-    categories: jekyll
-    highlight: true
-    image: http://www.wchs4pets.org/wp-content/uploads/2015/03/cat_1-jpg.jpg
-    author: Google Developers Group Managua
-    ---
+After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
 
-## Layout Configuration
-You can setup 4 types of layout
+#### Gulp Tasks
 
-- Fixed Nav + Simple Card Grid
-- Fixed Nav + Highlight Post + Card Grid
-- Drawer Nav + Simple Card Grid
-- Drawer Nav + Highlight Post + Card Grid
+- `gulp` the default task that builds everything
+- `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
+- `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
+- `gulp js` minifies the themes JS file
+- `gulp vendor` copies dependencies from node_modules to the vendor directory
 
-For use this in the [_config.yml](https://github.com/gdg-managua/jekyll-mdl/blob/master/_config.yml) select the type of layout, rebuild the website and voilà :smile:
+You must have npm and Gulp installed globally on your machine in order to use these features.
 
-## Contributing
-If you want to contribute to this project, please read the [CONTRIBUTING](https://github.com/gdg-managua/jekyll-mdl/blob/master/CONTRIBUTING.md) file and perform the following steps
+## Troubleshooting and Help
 
-    # Fork this repository
-    # Clone your fork
-    jekyll serve --watch
+Start Bootstrap has a public Slack channel which is a great place to ask questions about this template and all things related to Start Bootstrap.
 
-    git checkout -b feature_branch
-    # Implement your feature and tests
-    git add . && git commit
-    git push -u origin feature_branch
-    # Send a pull request for your feature branch
+**[Click here to join the Slack channel!](https://startbootstrap-slack.herokuapp.com/)**
 
-## Team
-[![Oscar Cortez](https://avatars.githubusercontent.com/u/2553459?v=3&s=100)](http://github.com/oscarmcm) | [![Byron Corrales](https://avatars.githubusercontent.com/u/99616?v=3&s=100)](https://github.com/byroncorrales)
----|---
-[Oscar Cortez](http://github.com/oscarmcm) | [Byron Corrales](https://github.com/byroncorrales)
-Project Lead | Contributor
+## Bugs and Issues
 
-## License
-Licensed under the Apache 2.0 license.
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-resume/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/resume/).
 
-See the [LICENSE](https://github.com/gdg-managua/jekyll-mdl/blob/master/LICENSE.md) file for more details.
+## About
 
-Copyright © 2015 [Google Developers Group Managua](http://www.gdgmanagua.org).
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
 
+* https://startbootstrap.com
+* https://twitter.com/SBootstrap
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/gdg-managua/jekyll-mdl/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
 
+* http://davidmiller.io
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
+
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-resume/blob/gh-pages/LICENSE) license.

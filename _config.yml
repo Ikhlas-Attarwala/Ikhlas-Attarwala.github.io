@@ -1,6 +1,9 @@
 # Site settings
-title: 349 Alzheimer's
+title: MSAI 349 - Alzheimer's
 email: ikhlas.attarwala@gmail.com
+email: jaieu.sheil@gmail.com
+email: jackwilliamrichard@gmail.com
+email: quinciahu@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   ikhlas attarwala is a graduate student in artificial intelligence at Northwestern University interested in Machine Learning and Computer Vision.
 baseurl: "" # the subpath of your site, e.g. /blog/

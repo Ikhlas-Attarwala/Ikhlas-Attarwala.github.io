@@ -165,9 +165,8 @@
               <div class="subheading mb-3">Selecting favorable attributes</div>
               <p>We used a J48 deicision tree learned through Weka to select the attributes that would achieve the highest information gain. We selected the 
                 top 12. We found that choosing more than 12 yielded very similar results. As time passes, the number of important attributes we found decreased, 
-                suggesting the more common tests may not be strong indicators of the later states of the disease. We used 70% of our data for training, and 30% 
-                of our data for testing. In particular, the feature diagnosis AVDEL30MIN appeared in the top predictors until 6 months, but the feature diagnosis 
-                CDORIENT appeared in all subsequent 6-month phases.
+                suggesting the more common tests may not be strong indicators of the later states of the disease. In particular, the feature diagnosis AVDEL30MIN 
+                appeared in the top predictors until 6 months, but the feature diagnosis CDORIENT appeared in all subsequent 6-month phases.
               </p>
             </div>
             <div class="resume-date text-md-right">
@@ -177,7 +176,7 @@
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
               <div class="resume-content mr-auto">
-                <h3 class="mb-0">Visualizations</h3>
+                <h3 class="mb-0">Data</h3>
                 <div class="subheading mb-3">X</div>
                 <p>X
                 </p>
@@ -200,9 +199,17 @@
           <div class="resume-content mr-auto">
             <h3 class="mb-0">Step 3</h3>
             <div class="subheading mb-3">Testing & Comparing Accuracies</div>
-            <p>After applying various machine learning models from SciKit-Learn and TensorFlow, we found that the 12 selected attributes achieved a higher accuracy in 
+            <p>We split the data from each month into 70% training sets and 30% testing sets, and compared all accuracies with and without feature selection. 
+              After applying various machine learning models from SciKit-Learn and TensorFlow, we found that the 12 selected attributes achieved a higher accuracy in 
               predicting the disease in the early and late phases of AD, when compared to learning on all 63 attributes. The middle phases of the tests (such as the 2nd year 
-              mark) don't produce very high results for either the 12 selected or 63 total attributes.
+              mark) don't produce very high results for either the 12 selected or 63 total attributes. From the comparison, we saw that the selected attributes achieved a higher 
+              or comparable accuracy in predicting the disease. We used Neural Nets for the classification task with various hyperparameters to achieve maximum accuracy. For KNN, 
+              various values of k was check ranging from 2 to 25 and 9 was found to perform the best in terms of performance and accuracy. Another algorithm that performed well 
+              consistently across various phases was Random Forest Classifier with a depth of 7 proving the efficacy of ensemble methods. SVC and Decision Trees didn’t perform 
+              consistently with the selected attributes, possibly because of limited data as the number of number increased. Also it was noticed that in the early and later months, 
+              such as M06 and M48, the selected attributes performed better than the full entries. In the middle months, like M18, the selected attributes don’t meet our expectation. 
+              However, we notice that even the full attributes of this month don’t give high accuracy. It indicates that the diagnosis recipe currently in use for these stages may 
+              not be working ideally. We have created visualizations by plotting the  accuracies of different models with different settings/hyperparameters.
             </p>
           </div>
           <div class="resume-date text-md-right">

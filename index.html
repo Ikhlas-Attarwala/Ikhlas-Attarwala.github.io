@@ -127,7 +127,7 @@
                   and then trained (70%) and tested (30%) with neural nets, KNN (n=9), Support Vector Machines, Random Forest Classifiers, and Ada Boost Classifiers. Our results 
                   have been tabulated so we could compare which performed best. Our learners achieved varying results per stage of severity in patients, but in general, Random Forest 
                   and ADA Boost Classifiers outperformed the others. In addition, of the 12 features, AVDEL30MIN was a strong predictor prior to 6 months of testing, but CDORIENT 
-                  performed better for all later tests. Results can be found below.
+                  performed better for all later tests. We describe our steps and results in more detail below.
                 </p>
               </div>
               <div class="resume-date text-md-right">
@@ -163,7 +163,9 @@
                   <div class="resume-content mr-auto">
                     <h3 class="mb-0">Step 2</h3>
                     <div class="subheading mb-3">Selecting attributes</div>
-                    <p>X</p>
+                    <p>We used a J48 deicision tree learned through Weka to select the attributes that would achieve the highest information gain. We selected the 
+                      top 12. We found that choosing more than 12 yielded very similar results. 
+                    </p>
                   </div>
                   <div class="resume-date text-md-right">
                     <span class="text-primary"></span>

@@ -47,6 +47,9 @@
             <a class="nav-link js-scroll-trigger" href="#data">Data</a>
           </li>
           <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#moredata">More Data & Visualizations</a>
+            </li>  
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#models">Models</a>
           </li>
           <li class="nav-item">
@@ -190,6 +193,56 @@
 
       <hr class="m-0">
 <!-------------------------------------------------------------------------------------------------------------------------------------------->
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="moredata">
+    <div class="my-auto">
+      <h1 class="mb-5">More Data & Visualizations</h1>
+
+      <div class="resume-item d-flex flex-column flex-md-row mb-5">
+          <div class="resume-content mr-auto">
+            <h3 class="mb-0">Step 1</h3>
+            <div class="subheading mb-3">Cleaning</div>
+            <p>We approached the Alzheimer's Disease Neuroimaging Initiative (ADNI) and requested access to their database of diagnosis results from thousands 
+              of patients over the years. The database required us to heavily preprocess the data. The database 'scores' each diagnosis based on a Clinical 
+              Dementia Rating (CDR) and Mild Cognitive Impairment (MCI) scoring scale. The same is done for the stage of a patient's symptoms Mini-Mental 
+              State Examination (MMSE).
+            </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">X</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Step 2</h3>
+              <div class="subheading mb-3">Selecting favorable attributes</div>
+              <p>We used a J48 deicision tree learned through Weka to select the attributes that would achieve the highest information gain. We selected the 
+                top 12. We found that choosing more than 12 yielded very similar results. As time passes, the number of important attributes we found decreased, 
+                suggesting the more common tests may not be strong indicators of the later states of the disease. In particular, the feature diagnosis AVDEL30MIN 
+                appeared in the top predictors until 6 months, but the feature diagnosis CDORIENT appeared in all subsequent 6-month phases.
+              </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">X</span>
+            </div>
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+              <div class="resume-content mr-auto">
+                <h3 class="mb-0">Data</h3>
+                <p>We
+                </p>
+              </div>
+              <div class="resume-date text-md-right">
+                <span class="text-primary">X</span>
+              </div>
+            </div>
+
+    </div>
+  </section>
+
+      <hr class="m-0">
+<!-------------------------------------------------------------------------------------------------------------------------------------------->
 <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="models">
     <div class="my-auto">
       <h1 class="mb-5">Models</h1>
@@ -216,7 +269,6 @@
         <div class="resume-item d-flex flex-column flex-md-row">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Visualizations</h3>
-              <div class="subheading mb-3">X</div>
               <p>X
               </p>
             </div>
@@ -260,6 +312,16 @@
                 <div class="subheading mb-3"> · While we didn't have the time to run a Convolutional Neural Net on the MRI Imaging Data, we would like to take on this task in the near future.</div><br>
               </div>
             </div>
+          <div class="resume-item d-flex flex-column flex-md-row">
+              <div class="resume-content mr-auto">
+                <h3 class="mb-0"></h3>
+                <i class="fa-li fa fa-trophy text-warning"></i>
+                <div class="subheading mb-3">Our written reports include a <a href="mailto:quinciahu@gmail.com">Proposal</a>, 
+                  <a href="mailto:quinciahu@gmail.com">Status Report</a> and 
+                  <a href="mailto:quinciahu@gmail.com">Final Report</a>. You can find each by clicking on their respective titles.</div><br>
+              </div>
+            </div>
+
         </div>
       </section>
 

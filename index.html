@@ -75,7 +75,7 @@
           <p class="lead mb-5">
             Alzheimer's Disease (AD) is a chronic & dreadful neurogenerative disease, the most common form of dementia, and unfortunately, uncurable. 
             Our group's goal is to investigate different diagnostic reports, and predict with significant accuracy which of these are most influential 
-            in predicting the severity (or phase) of AD.
+            in predicting the stage (or phase) of AD.
           </p>
           <div class="social-icons">
             <a href="https://github.com/Ikhlas-Attarwala/Ikhlas-Attarwala.github.io">
@@ -125,7 +125,7 @@
                 <div class="subheading mb-3">The how?</div>
                 <p>We used a number of different learners in this project. We started off by selecting 12 attributes with the most information gain through decision trees (J48), 
                   and then trained (70%) and tested (30%) with neural nets, KNN (n=9), Support Vector Machines, Random Forest Classifiers, and Ada Boost Classifiers. Our results 
-                  have been tabulated so we could compare which performed best. Our learners achieved varying results per stage of severity in patients, but in general, Random Forest 
+                  have been tabulated so we could compare which performed best. Our learners achieved varying results per phase in patients, but in general, Random Forest 
                   and ADA Boost Classifiers outperformed the others. In addition, of the 12 features, AVDEL30MIN was a strong predictor prior to 6 months of testing, but CDORIENT 
                   performed better for all later tests. We describe our steps and results in more detail below.
                 </p>
@@ -150,8 +150,8 @@
                   <div class="subheading mb-3">Cleaning</div>
                   <p>We approached the Alzheimer's Disease Neuroimaging Initiative (ADNI) and requested access to their database of diagnosis results from thousands 
                     of patients over the years. The database required us to heavily preprocess the data. The database 'scores' each diagnosis based on a Clinical 
-                    Dementia Rating (CDR) and Mild Cognitive Impairment (MCI) scoring scale. The same is done for the severity of a patient's symptoms Mini-Mental 
-                    State Examination (MMSE). Once cleaned, we found we only had around 20% of our patient data with full results (ie. nothing was missing).
+                    Dementia Rating (CDR) and Mild Cognitive Impairment (MCI) scoring scale. The same is done for the stage of a patient's symptoms Mini-Mental 
+                    State Examination (MMSE).
                   </p>
                 </div>
                 <div class="resume-date text-md-right">
